@@ -1,0 +1,82 @@
+
+
+.container{
+    width: 40em;
+    margin: 0 auto;
+    background: #eed;
+    position: relative;
+}
+
+h1{
+    margin-left: 6%;
+    font-family: "MS Trebuchet", Tahoma, Verdana, sans-serif;
+    color: #24a;
+}
+
+.question, #alert, #correct, #incorrect{
+    float: left;
+    width: 60%;
+    margin: 1em 6%;
+    border: 2px #cce solid;
+    background: #fff;
+}
+
+#correct{
+    font-weight: bold;
+    color: #2c2;
+}
+
+#incorrect{
+    color: #f00;
+}
+
+button, #alert{
+    background: #e26;
+    color: #fed;
+}
+
+button {
+    padding: 1em 2em;
+    position: absolute;
+    bottom: 2em;
+    right: 2em;
+}
+
+button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+input, label {
+    margin: 0.75em 0
+}
+
+.inner{
+    margin: 1em;
+    line-height: 1,5em;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+
+.hidden{
+    display: none;
+}
+
+body{line-height:1.5em;}
