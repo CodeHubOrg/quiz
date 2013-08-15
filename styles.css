@@ -1,11 +1,18 @@
+body{
+    line-height:1.5em;
+    font-family: Georgia, sans-serif;    
+}
 
-
-.container{
+.container, .rep{
     width: 40em;
     margin: 0 auto;
+}
+
+.container{
     background: #eed;
     position: relative;
 }
+
 
 h1{
     margin-left: 6%;
@@ -79,4 +86,3 @@ input, label {
     display: none;
 }
 
-body{line-height:1.5em;}

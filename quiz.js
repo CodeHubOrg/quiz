@@ -3,7 +3,7 @@
       allQuestions : [
           {question: "What's the result of \"typeof typeof(null)\"?",
               choices: ["\"undefined\"","SyntaxError","\"string\"","\"object\"","TypeError"], correctAnswer:2},
-                {question: "Are the alforithms of the following checks completely equivalent?: \"typeof foo == 'undefined'\" and \"typeof foo === 'undefined'\"",
+                {question: "Are the algorithms of the following checks completely equivalent?: \"typeof foo == 'undefined'\" and \"typeof foo === 'undefined'\"",
               choices: ["Yes","No"], correctAnswer:0},
               {question: "What's the result of \"100['toString']['length']\"?",
               choices: ["100","3","1","8","0"], correctAnswer:2},
